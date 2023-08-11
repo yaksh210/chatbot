@@ -17,7 +17,7 @@ const loadDataFromLocalstorage = () => {
     themeButton.innerText = document.body.classList.contains("light-mode") ? "dark_mode" : "light_mode";
     const defaultText = `<div class="default-text">
                             <h1>YakshGpt</h1>
-                            <p>Welcome!explore the power of AI.<br> Your chat history will be displayed here.</p>
+                            <p>Welcome! Explore the power of AI.<br> Your chat history will be displayed here.</p>
                         </div>`
     chatContainer.innerHTML = localStorage.getItem("all-chats") || defaultText;
     chatContainer.scrollTo(0, chatContainer.scrollHeight);  // Scroll to bottom of the chat container
