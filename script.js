@@ -6,7 +6,7 @@ const deleteButton = document.querySelector("#delete-btn");
 let userText = null;
 
 
-const API_KEY = "Paste your API key here"
+const API_KEY = "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"
 
 const loadDataFromLocalstorage = () => {
 
