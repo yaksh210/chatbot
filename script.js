@@ -6,7 +6,7 @@ const deleteButton = document.querySelector("#delete-btn");
 let userText = null;
 
 
-const API_KEY = "ADD API KEY"
+const API_KEY = "ADD API KEY FROM OPEN AI DOCS"
 
 const loadDataFromLocalstorage = () => {
 
